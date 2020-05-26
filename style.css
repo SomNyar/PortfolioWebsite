@@ -1,0 +1,63 @@
+/*########## Defaults ##########*/
+nav,
+header,
+footer {
+    display: block;
+}
+
+body {
+    line-height: 1; /*space between text*/
+    margin: 0; /*sucked edge to edge*/
+}
+
+/*########## Nav bar ##########*/
+
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    background-color: #eee;
+    overflow: hidden; /*inkább elrejtjük mint hogy oldaltól oldalig kelljen tekernie a usernek mert az nem túl jó élmény számára*/
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li { /*ezzel a felépítessél megegyező elemekre lesz igaz*/
+    list-style: none;
+}
+
+ul.topnav li { /*kerüljön ez a lista balról sorbarendezve*/
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+}
+
+ul.topnav li a {
+    display:block;
+    text-decoration: none; /*ne legyen aláhúzva*/
+    min-height: 16px; /*ne legyen túl pici mert kattingatni akarjuk*/
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+ul.topnav li a:hover { /*hover effect, ezzel egy "action"-t adtunk hozzá*/
+    background-color: #0080ff;
+    color: #ffff;
+}
+
+
+
+
+
+
+
+
+
+
