@@ -1,2 +1,2 @@
 # PortfolioWebsite
- You can find everything about me here
+My soon-to-be publsihed personal website to find carreer and some personal information about me
